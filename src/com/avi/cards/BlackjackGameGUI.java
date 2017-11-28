@@ -155,7 +155,7 @@ public class BlackjackGameGUI extends JFrame{
 			result = "YOU WIN!";
 		}	
 		System.out.println(result);
-		int playAgain = JOptionPane.showConfirmDialog(this, result +" Play again?");
+		int playAgain = JOptionPane.showConfirmDialog(this, result +" Play again?", "Play Again?", JOptionPane.YES_NO_OPTION);
 		System.out.println(playAgain);
 		if (playAgain == JOptionPane.OK_OPTION) {
 			resetGame();
